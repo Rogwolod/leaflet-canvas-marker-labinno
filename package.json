@@ -1,6 +1,6 @@
 {
-  "name": "leaflet-canvas-marker",
-  "version": "0.2.0",
+  "name": "leaflet-canvas-marker-labinno",
+  "version": "1.0.0",
   "description": "Leaflet plugin to display markers on canvas instead of DOM",
   "main": "dist/leaflet.canvas-markers.js",
   "directories": {
@@ -13,17 +13,12 @@
     "watch": "set NODE_ENV=test&& webpack --watch",
     "prepublish": "npm run build"
   },
-  "keywords": [
-    "leaflet",
-    "leaflet-plugin",
-    "marker",
-    "map"
-  ],
-  "author": "Evgeniy Voynov <voynov.ev@gmail.com> (http://github.com/eJuke)",
+  "keywords": [],
+  "author": "vivien.achet@atos.net",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eJuke/Leaflet.Canvas-Markers.git"
+    "url": "https://github.com/Vivien-/leaflet-canvas-marker-labinno.git"
   },
   "devDependencies": {
     "script-loader": "^0.7.2",
