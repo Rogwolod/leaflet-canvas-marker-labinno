@@ -34,8 +34,8 @@ function layerFactory(L) {
 
             markers.forEach(function (marker) {
 
-                if (!((marker.options.pane == 'markerPane') && marker.options.icon)) {
-                    console.error('Layer isn\'t a marker');
+                if (!marker.options.icon) {
+                    console.error('Layer isn\'t a marker or has not an icon');
                     return;
                 }
 
@@ -68,8 +68,8 @@ function layerFactory(L) {
         },
 
         addLayer: function (layer) {
-            if ((layer.options.pane == 'markerPane') && layer.options.icon) this.addMarker(layer);
-            else console.error('Layer isn\'t a marker');
+            if (layer.options.icon) this.addMarker(layer);
+            else console.error('Layer isn\'t a marker or has not an icon');
         },
 
         addLayers: function (layers) {

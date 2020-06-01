@@ -20,8 +20,8 @@ const plugins = [
 const webpackConfig = {
     mode: "none",
     entry: {
-        "leaflet.canvas-markers": "./src/_full.js",
-        "leaflet.canvas-markers.standalone": "./src/_standalone.js",
+        "leaflet.canvas-markers-rog": "./src/_full.js",
+        "leaflet.canvas-markers-rog.standalone": "./src/_standalone.js",
     },
     devtool: isProd ? "(none)" : "source-map",
     output: {
